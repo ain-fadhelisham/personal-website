@@ -1,0 +1,42 @@
+body
+{
+	background-image: url(../images/background3.jpg);
+	font-family: fantasy;
+	text-align: center;
+	font-size: 18pt
+}
+
+.background{
+	width: 100%;
+	height: 100%
+	background-image: url(../images/background3.jpg);
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+
+a:link, a:visited
+{
+	color: white;
+	background: pink;
+	text-decoration: none;
+	padding: 16px;
+	text-align: center;
+	display: inline-block;
+	font-family: verdana;
+}
+
+
+a:hover
+{
+	color: yellow;
+	background-color: purple;
+	text-decoration: underline;
+}
+
+a:active
+{
+	color: yellow;
+	background-color: white;
+	text-decoration: underline;
+}
